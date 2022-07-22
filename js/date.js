@@ -35,7 +35,7 @@ function helloing() {
     if (hours >= 5 && hours < 21) {
         greetingText.innerHTML = `Good morning`
     } if (hours >= 12 && hours < 17) {
-        greetingText.innerHTML = `Good day `
+        greetingText.innerHTML = `Good afternoon `
     } if (hours >= 17 && hours < 21) {
         greetingText.innerHTML = `Good evening`
     } if (hours >= 21 && hours < 5) {
