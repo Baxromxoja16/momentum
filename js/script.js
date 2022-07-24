@@ -76,6 +76,3 @@ function prevHandler() {
 
     audio.play()
 }
-
-
-

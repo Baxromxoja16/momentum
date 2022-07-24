@@ -16,10 +16,9 @@ fetch(api)
         changeQuote.addEventListener("click", changeQuoteHandler)
         let num = 0
         function changeQuoteHandler() {
-            if (num == 3) {
+            if (num == data.length) {
                 num = 0
             }
-            console.log(num);
             quote.textContent = data[num].text
             author.textContent = data[num].author
             num++
