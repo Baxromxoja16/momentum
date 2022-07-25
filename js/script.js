@@ -45,8 +45,10 @@ playNext.addEventListener("click", nextHandler)
 playPrev.addEventListener("click", prevHandler)
 
 function nextHandler() {
+    i++
+    
     play.classList.add("pause")
-
+    
     audio.src = allMusic()[i].src
 
     audio.play()
@@ -55,7 +57,6 @@ function nextHandler() {
 
     play_item[i].classList.add("item_active")
 
-    i++
 
     if (i >= play_item.length) {
         i = 0
